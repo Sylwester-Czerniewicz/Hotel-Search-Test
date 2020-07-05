@@ -14,7 +14,7 @@ public class GoogleSearchTest extends BaseSeleniumTest {
         driver.get("https://www.google.com/");
         driver.findElement(By.name("q")).sendKeys("Selenium");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-        driver.findElement(By.xpath("//h3[text()= 'Selenium']")).click();
+        driver.findElement(By.xpath("//h3[text()= 'Selenium']")).click(); // szukanie elementu za pomoca scieżki
     }
 
     @Test
