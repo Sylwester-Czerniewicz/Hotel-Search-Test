@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OurFirstTest" duration-ms="453" started-at="2020-02-26T19:25:38 CET" finished-at="2020-02-26T19:25:39 CET">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="453" started-at="2020-02-26T19:25:38 CET" finished-at="2020-02-26T19:25:39 CET">
+      <class name="OurFirstTest">
+        <test-method status="PASS" signature="sayHallow()[pri:0, instance:OurFirstTest@475530b9]" name="sayHallow" duration-ms="78" started-at="2020-02-26T19:25:39 CET" finished-at="2020-02-26T19:25:39 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sayHallow -->
+      </class> <!-- OurFirstTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- OurFirstTest -->
+</testng-results>
